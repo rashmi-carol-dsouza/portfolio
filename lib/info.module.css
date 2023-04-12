@@ -1,0 +1,9 @@
+.phonetic {
+    font-style: italic;
+    font-size: 0.9rem;
+    color: var(--color-onyx);
+}
+
+.anchor {
+    text-decoration: underline;
+}
