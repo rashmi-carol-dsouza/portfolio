@@ -9,35 +9,48 @@ const About = () => (
   <section>
     <h1 className="font-bold text-3xl font-serif">About Me</h1>
     <p className="my-5 text-neutral-800">
-      Hey, I&apos;m Rashmi. Most folks know me as <b>bla bla</b> online.
+    👋 Hi, I'm <b>Rashmi</b>.
     </p>
     <div className="prose prose-neutral text-neutral-800 space-y-4">
       <p>
-        I&apos;m currently pursuing a{" "}
-        <b>Master&apos;s Degree in Data Science & Project Management at HTW</b>,
-        where I lead our Developer Relations and Documentation teams. I focus on{" "}
-        <b>educating and growing</b> the Vercel and Next.js communities.
+      I'm a student at HTW Berlin pursuing my <b>Master&aposs Degree in Data Science and Project Management</b>.
       </p>
       <hr />
       <p>
-        I&apos;m passionate about many creative pursuits, including music,
-        photography, videography, and of course, coding. This combination of
-        interests is what ultimately led me to my current role in building
-        developer communities.
+      Previously I worked as a Compliance Officer and studied law and finance/commerce. Now I'm switching my carrer and to become a <b>Data Scientist</b>.
       </p>
       <p>
-        I <b>love</b> building for the web. From something as simple as a single
-        HTML file – all the way to large Next.js applications. The web is
-        incredible. Anyone can become a developer, writer, or creator – and no
-        one has to ask for permission. You can just build.
+      I particularly enjoy building full stack data driven applications.
       </p>
       <p>
-        Outside of HTW, I <b>angel invest</b> in developer tools companies and{" "}
-        <b>advise early-stage startups</b>. I also do Developer Relations
-        consulting work, helping companies take their DevRel function from 0 to
-        1, or provide guidance on growing communities, content creation, and
-        developer marketing.
+      🔭 I’m working on: Building an image recognition app to indentify hand written numbers. The last app I worked, detects Baklava in an image.
       </p>
+      <p>
+      🌱 I’m currently learning: Neural Networks using keras, Tensorflow and Pytorch.
+      </p>
+      <p>
+        🤔 What I want to learn next: AWS to deploy machine learning pipelines.
+        </p>
+      <p>
+        📫 How to reach me: <b>hello@rashmidsouza.com</b>
+        </p>
+      <p>
+        ⚡ Fun fact: I've battled Mealybugs to keep my houseplants alive.
+        </p>
+      <p>🔧 Tools I Like To Use
+      <ul>
+        <li>Scikit-learn</li>
+        <li>Tableau</li>
+        <li>Tensorflow</li>
+      </ul>
+
+        </p>
+
+      <p>
+        👻 What I do besides hammering keys: I enjoy cooking Indo-Chinese cuisine, picnics by the river and watching sci-fi movies with my husband.
+      </p>
+      
+      
     </div>
   </section>
 );
