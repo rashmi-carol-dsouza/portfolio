@@ -13,7 +13,7 @@ const About = () => (
     </p>
     <div className="prose prose-neutral text-neutral-800 space-y-4">
       <p>
-      I'm a student at HTW Berlin pursuing my <b>Master's Degree in Data Science and Project Management</b>.
+      I'm a student at HTW Berlin pursuing my <b>Master&aposs Degree in Data Science and Project Management</b>.
       </p>
       <hr />
       <p>
