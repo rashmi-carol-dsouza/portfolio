@@ -13,7 +13,7 @@ const About = () => (
     </p>
     <div className="prose prose-neutral text-neutral-800 space-y-4">
       <p>
-      I'm a student at HTW Berlin pursuing my <b>Master&aposs Degree in Data Science and Project Management</b>.
+      I'm a student at HTW Berlin pursuing my <b>Master's Degree in Data Science and Project Management</b>.
       </p>
       <hr />
       <p>
@@ -32,7 +32,7 @@ const About = () => (
         🤔 What I want to learn next: AWS to deploy machine learning pipelines.
         </p>
       <p>
-        📫 How to reach me: <b>hello@rashmidsouza.com</b>
+        📫 How to reach me: <a href="mailto:hello@rashmidsouza.com"><b><u>hello@rashmidsouza.com</u></b></a>
         </p>
       <p>
         ⚡ Fun fact: I've battled Mealybugs to keep my houseplants alive.
