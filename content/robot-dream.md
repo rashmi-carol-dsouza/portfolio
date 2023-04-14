@@ -4,7 +4,7 @@ type: Project
 publishedAt: 2023-01-19
 summary: Web App to detect balloons and happy faces in images
 ---
-<iframe width="566" height="304" src="https://www.youtube.com/embed/R5XeVGh6ZoI" title="Robot Dream Web App" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe class="video" src="https://www.youtube.com/embed/R5XeVGh6ZoI" title="Robot Dream Web App" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 In this project, our team "Robot Dream" implemented an object detection system that can detect and classify balloons and happy faces in an image. The project involved the use of deep learning techniques such as convolutional neural networks (CNNs) and object detection to extract features from the image and a region-based algorithm to identify and locate the objects within the image.
 
