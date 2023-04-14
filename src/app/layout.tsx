@@ -30,6 +30,7 @@ export default function RootLayout({
         <Script
           src="https://kit.fontawesome.com/9b6441880f.js"
           crossOrigin="anonymous"
+          strategy="afterInteractive"
         ></Script>
         <Script
           async
