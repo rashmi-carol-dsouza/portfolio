@@ -1,11 +1,11 @@
 ---
-title: poseGenie
+title: PoseGenie
 type: Project
 publishedAt: 2023-04-09
 summary: AI powered form-feedback tool in fitness and yoga.
 ---
 
-<iframe width="642" height="361" src="https://www.youtube.com/embed/gpVJElS9S80" title="poseGenie Demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe class="video" src="https://www.youtube.com/embed/gpVJElS9S80" title="poseGenie Demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 Posegenie is a computer vision project that was developed as a final project at TechLabs Berlin, with the aim of making yoga and fitness more accessible to people. The project uses machine learning algorithms and deep learning to detect and classify yoga poses based on video input from a webcam. The user can then see their own image on the screen, along with a visualization of their skeleton and the detected yoga pose.
 

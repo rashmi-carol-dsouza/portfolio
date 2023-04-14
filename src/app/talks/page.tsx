@@ -1,8 +1,6 @@
 import talks from "./talks.json";
 import clsx from "clsx";
 
-import styles from "./talks.module.css";
-
 const Talks = () => (
   <section>
     <h1 className="font-bold text-3xl font-serif mb-5">Recent Talks</h1>
@@ -22,7 +20,7 @@ const Talks = () => (
                 {talk.summary}
               </p>
               <iframe
-                className={clsx(styles.video, "mt-3")}
+                className="mt-3 video"
                 src={talk.embeddedVideoUrl}
                 title="YouTube video player"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"

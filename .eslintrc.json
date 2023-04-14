@@ -1,6 +1,13 @@
 {
   "extends": "next/core-web-vitals",
+  "plugins": ["check-file"],
   "rules": {
-    "react/no-unescaped-entities": 0
+    "react/no-unescaped-entities": 0,
+    "check-file/filename-naming-convention": [
+      "error",
+      {
+        "content/*.md": "KEBAB_CASE"
+      }
+    ]
   }
 }

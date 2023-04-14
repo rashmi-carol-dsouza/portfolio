@@ -4,7 +4,7 @@ type: Project
 publishedAt: 2023-29-02
 summary: A&R Analytics Tool for facilitating aritist collaboration
 ---
-<iframe width="976" height="498" src="https://www.youtube.com/embed/GErgvCgFiLg" title="Collaborata" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe class="video" src="https://www.youtube.com/embed/GErgvCgFiLg" title="Collaborata" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 I took part in Measure of Music, a music and data hackathon and was a part of the Winning Project "Collaborata".
 
