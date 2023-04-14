@@ -1,14 +1,12 @@
-import Link from 'next/link';
-import Image from 'next/image';
-import { name, about, bio, avatar } from '../../lib/info';
+import Link from "next/link";
+import Image from "next/image";
+import { name, About, Bio, avatar } from "../../lib/info";
 
 export default async function HomePage() {
   return (
     <section>
       <h1 className="font-bold text-3xl font-serif">{name}</h1>
-      <p className="my-5 max-w-[460px] text-neutral-800">
-        {about()}
-      </p>
+      <About />
       <div className="flex items-start md:items-center my-8 flex-col md:flex-row">
         <Image
           alt={name}
@@ -19,16 +17,14 @@ export default async function HomePage() {
           priority
         />
         <div className="mt-8 md:mt-0 ml-0 md:ml-6 space-y-2 text-neutral-500">
-        <a
-            rel="noopener noreferrer"
-            target="_blank"
-            href="https://github.com/TechLabs-Berlin/wt23-posegenie#-artificial-intelligence"
+          <Link
+            href="/projects/pose-genie"
             className="flex items-center gap-2"
           >
             <i className="fa-solid fa-rocket"></i>
             Latest Project: Pose Detection
-          </a>
-        <a
+          </Link>
+          <a
             rel="noopener noreferrer"
             target="_blank"
             href="https://www.youtube.com/live/BfS71B6Lxfs?feature=share"
@@ -66,9 +62,8 @@ export default async function HomePage() {
           </a>
         </div>
       </div>
-      <p className="my-5 max-w-[600px] text-neutral-800">
-        {bio()}
-      </p>
+
+      <Bio />
     </section>
   );
 }
