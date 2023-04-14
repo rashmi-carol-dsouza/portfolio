@@ -18,4 +18,6 @@ As a part of the team, I developed the end-to-end data pipeline, which leveraged
 Overall, I this was my first project where I built and end to end data pipeline which was deployed to the cloud.
 
 \
-[Here's the Project Outcome](https://github.com/rashmi-carol-dsouza/balloon-detection)
+[Here's the Project Outcome](https://github.com/rashmi-carol-dsouza/twitter-dashboard/blob/main/Tweet%20Dashboard%20Report.pdf)
+
+[Here's the Project Code](https://github.com/rashmi-carol-dsouza/tweets-challenge)
