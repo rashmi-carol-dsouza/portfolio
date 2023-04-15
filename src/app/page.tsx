@@ -1,11 +1,10 @@
 import Link from "next/link";
 import Image from "next/image";
-import me from "./avatar_3x.jpg";
+import avatar from "./avatar_3x.jpg";
 import About from '../components/About/About';
 import Bio from '../components/Bio';
 
 const name = "Rashmi DSouza";
-export const avatar = me;
 
 export default async function HomePage() {
   return (
