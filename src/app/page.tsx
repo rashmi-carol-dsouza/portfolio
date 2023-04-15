@@ -4,7 +4,7 @@ import me from "./avatar_3x.jpg";
 import About from '../components/About/About';
 import Bio from '../components/Bio';
 
-export const name = "Rashmi DSouza";
+const name = "Rashmi DSouza";
 export const avatar = me;
 
 export default async function HomePage() {
