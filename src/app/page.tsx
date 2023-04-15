@@ -1,6 +1,11 @@
 import Link from "next/link";
 import Image from "next/image";
-import { name, About, Bio, avatar } from "../../lib/info";
+import me from "./avatar_3x.jpg";
+import About from '../components/About/About';
+import Bio from '../components/Bio';
+
+export const name = "Rashmi DSouza";
+export const avatar = me;
 
 export default async function HomePage() {
   return (
@@ -21,7 +26,7 @@ export default async function HomePage() {
             href="/projects/pose-genie"
             className="flex items-center gap-2"
           >
-            <i className="fa-solid fa-rocket"></i>
+            <i className="fa-solid fa-rocket h-4 w-4"></i>
             Latest Project: Pose Detection
           </Link>
           <a
@@ -30,7 +35,7 @@ export default async function HomePage() {
             href="https://www.youtube.com/live/BfS71B6Lxfs?feature=share"
             className="flex items-center gap-2"
           >
-            <i className="fa-brands fa-youtube"></i>
+            <i className="fa-brands fa-youtube h-4 w-4"></i>
             Recent Talk: Winning Measure of Music Hackathon
           </a>
           <a
@@ -39,7 +44,7 @@ export default async function HomePage() {
             href="https://github.com/rashmi-carol-dsouza"
             className="flex items-center gap-2"
           >
-            <i className="fa-brands fa-github"></i>
+            <i className="fa-brands fa-github h-4 w-4"></i>
             Code
           </a>
           <a
@@ -48,7 +53,7 @@ export default async function HomePage() {
             target="_blank"
             href="https://docs.google.com/document/d/1IS8AkTmY1Z1GxdXoKF771m3wzbxOTIsajglC2bPppO4/edit?usp=sharing"
           >
-            <i className="fa-solid fa-arrow-up-right-from-square"></i>
+            <i className="fa-solid fa-arrow-up-right-from-square h-4 w-4"></i>
             <p className="h-7">Resume</p>
           </a>
           <a
@@ -57,7 +62,7 @@ export default async function HomePage() {
             href="https://twitter.com/rashmi_carol"
             className="flex items-center gap-2"
           >
-            <i className="fa-brands fa-twitter"></i>
+            <i className="fa-brands fa-twitter h-4 w-4"></i>
             Tweets
           </a>
         </div>
