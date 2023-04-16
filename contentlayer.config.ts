@@ -37,6 +37,21 @@ export const Project = defineDocumentType(() => ({
       type: 'string',
       required: true,
     },
+    tags: {
+      type: 'string',
+    },
+    code: {
+      type: 'string',
+    },
+    outcome: {
+      type: 'string',
+    },
+    pitch: {
+      type: 'string',
+    },
+    liveDemo: {
+      type: 'string',
+    },
     publishedAt: {
       type: 'string',
       required: true,
