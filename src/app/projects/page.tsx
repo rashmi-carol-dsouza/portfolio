@@ -22,10 +22,10 @@ export default function Projects() {
                 >
                   {project.title}
                 </Link>
-                {project.tags && <Tags tags={project.tags.split(',')} />}
                 <p className="font-mono text-sm text-neutral-500 tracking-tighter">
                   {project.summary}
                 </p>
+                {project.tags && <Tags tags={project.tags.split(',')} />}
               </div>
             </div>
           </li>
