@@ -2,6 +2,7 @@ import Head from "next/head";
 import Link from "next/link";
 import { compareDesc, format, parseISO } from "date-fns";
 import { allProjects } from "contentlayer/generated";
+import { Tags } from "@/components/Tags";
 
 export default function Projects() {
   const projects = allProjects.sort((a, b) => {
@@ -21,6 +22,7 @@ export default function Projects() {
                 >
                   {project.title}
                 </Link>
+                {project.tags && <Tags tags={project.tags.split(',')} />}
                 <p className="font-mono text-sm text-neutral-500 tracking-tighter">
                   {project.summary}
                 </p>

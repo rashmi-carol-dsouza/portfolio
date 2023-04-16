@@ -2,6 +2,8 @@ import { allProjects } from "contentlayer/generated";
 import { notFound } from "next/navigation";
 import { Metadata } from "next/types";
 import { Mdx } from "@/components/mdx";
+import { Tags } from "@/components/Tags";
+import ProjectLinks from "@/components/ProjectLinks";
 
 type URLMetaData = {
   params: any
@@ -22,6 +24,11 @@ export async function generateMetadata({
     summary: description,
     image,
     slug,
+    tags,
+    code,
+    pitch,
+    outcome,
+    liveDemo
   } = project;
 
   return {
@@ -49,6 +56,10 @@ export default async function Project({ params }: URLMetaData) {
     notFound();
   }
 
+  const { tags, pitch, code, liveDemo, outcome } = project;
+  const hasLinks = [pitch, code, liveDemo, outcome].some(link => link);
+  
+  
   return (
     <section>
       <script type="application/ld+json">
@@ -63,7 +74,10 @@ export default async function Project({ params }: URLMetaData) {
         </div>
         <div className="h-[0.2em] bg-neutral-50 mx-2" />
       </div>
+      {hasLinks && <ProjectLinks pitch={pitch} code={code} liveDemo={liveDemo} outcome={outcome} />}
       <Mdx code={project.body.code} />
+      <hr className="my-8" />
+      {tags && <Tags tags={tags.split(',')} />}
     </section>
   );
 }
