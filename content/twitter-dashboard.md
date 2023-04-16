@@ -5,7 +5,7 @@ publishedAt: 2023-01-19
 summary: End to end automated pipeline to visualize customer feedback for Thameslink UK
 code: https://github.com/rashmi-carol-dsouza/twitter-dashboard
 outcome: https://github.com/rashmi-carol-dsouza/twitter-dashboard/blob/main/Tweet%20Dashboard%20Report.pdf
-tags: visualisation, ml
+tags: visualisation, nlp, Azure Functions, Power bi, azure sql, sentiment analysis
 ---
 <iframe class="video" src="https://www.youtube.com/embed/mLhlzSaivr0" title="Realtime Twitter Dashboard" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
