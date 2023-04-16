@@ -30,3 +30,5 @@ In the future, the team plans to continue developing and refining the Posegenie 
 \
 [Here's the Project Code](https://github.com/TechLabs-Berlin/wt23-posegenie)
 
+\
+[Here's a Blog Post on the Project](https://github.com/TechLabs-Berlin/wt23-posegenie/blob/main/blog.md)
