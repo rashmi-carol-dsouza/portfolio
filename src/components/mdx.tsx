@@ -9,7 +9,7 @@ type LinkProps = {
   href: string;
 }
 
-const CustomLink = (props: LinkProps) => {
+export const CustomLink = (props: LinkProps) => {
   const href = props.href;
 
   if (href.startsWith('/')) {

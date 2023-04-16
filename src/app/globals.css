@@ -35,6 +35,12 @@ html {
   @apply transition-all decoration-neutral-400 underline-offset-2 decoration-[0.1em];
 }
 
+.prose :where(a):not(:where([class~=not-prose] *)), .project-links a {
+  color: var(--tw-prose-links);
+  text-decoration: underline;
+  font-weight: 500;
+}
+
 .prose .anchor:after {
   @apply text-neutral-300;
   content: '#';
@@ -66,6 +72,10 @@ html {
   /* Override removing top margin, causing layout shift */
   margin-top: 1.25em !important;
   margin-bottom: 1.25em !important;
+}
+
+.prose p {
+  @apply mb-4;
 }
 
 code[class*='language-'],
