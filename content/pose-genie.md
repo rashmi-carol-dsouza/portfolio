@@ -5,7 +5,8 @@ publishedAt: 2023-04-09
 summary: AI powered form-feedback tool in fitness and yoga.
 pitch: https://pitch.com/public/7fcb1e36-931f-44af-9749-373c27556955/5ad6d87e-0bac-4019-927d-bcf50dad63f0
 code: https://github.com/TechLabs-Berlin/wt23-posegenie
-tags: computer vision, ai
+outcome: https://github.com/TechLabs-Berlin/wt23-posegenie/blob/main/blog.md
+tags: computer vision, ai, flask, bootcamp
 ---
 
 <iframe class="video" src="https://www.youtube.com/embed/gpVJElS9S80" title="poseGenie Demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

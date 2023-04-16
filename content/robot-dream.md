@@ -4,7 +4,7 @@ type: Project
 publishedAt: 2023-01-19
 summary: Web App to detect balloons and happy faces in images
 code: https://github.com/rashmi-carol-dsouza/balloon-detection
-tags: computer vision
+tags: computer vision, yolov5, flask
 ---
 <iframe class="video" src="https://www.youtube.com/embed/R5XeVGh6ZoI" title="Robot Dream Web App" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
