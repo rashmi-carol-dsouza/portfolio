@@ -41,12 +41,16 @@ html {
   font-weight: 500;
 }
 
-h2 {
+h2, h3 {
   color: var(--tw-prose-headings);
   font-weight: 700;
   font-size: 1.5em;
   margin-bottom: 1em;
   line-height: 1.3333333;
+}
+
+h3 {
+  font-size: 1.2em;
 }
 
 .prose .anchor:after {
