@@ -1,0 +1,82 @@
+[
+    {
+        "type": "badge",
+        "imageUrl": "/images/badge_creating_a_product_vision.png",
+        "title": "Creating a Product Vision",
+        "description": "Skill 1, Skill 2",
+        "issuedBy": "HTW",
+        "issuerUrl": "https://www.htw-berlin.de/"
+    },
+    {
+        "type": "hackathon",
+        "imageUrl": "/images/cert_measure-of-music_2022.png",
+        "title": "Measure of Music Hackathon 2022 Participant",
+        "description": "Measure of Music is a virtual three-day weekend program to show the impact & importance of data across the music industry and to give music industry hopefuls and industry career changers a crash course (and a finished project!) in music and data with some of the most influential people and companies driving the democratization of music data around the world.",
+        "issuedBy": "Measure of Music",
+        "issuerUrl": "https://conference.measureofmusic.com/",
+        "lessonsLearned": "TBD",
+        "socialMentions": [
+            {
+                "src": "YouTube",
+                "url": "https://www.youtube.com/watch?v=fB9Ni8-8K0M&list=PL4wrlPUmq82EfHUXnWKzcMdNIrNSJlLCI&index=1",
+                "text": "Winning Pitch"
+            }
+        ]
+    },
+    {
+        "type": "hackathon",
+        "imageUrl": "/images/cert_measure-of-music_2023.png",
+        "title": "Measure of Music Hackathon 2023 Winner",
+        "description": "Measure of Music is a virtual three-day weekend program to show the impact & importance of data across the music industry and to give music industry hopefuls and industry career changers a crash course (and a finished project!) in music and data with some of the most influential people and companies driving the democratization of music data around the world.",
+        "issuedBy": "Measure of Music",
+        "issuerUrl": "https://conference.measureofmusic.com/",
+        "lessonsLearned": "TBD",
+        "socialMentions": [
+            {
+                "src": "YouTube",
+                "url": "https://www.youtube.com/watch?v=fB9Ni8-8K0M&list=PL4wrlPUmq82EfHUXnWKzcMdNIrNSJlLCI&index=1",
+                "text": "Winning Pitch"
+            }
+        ]
+    },
+    {
+        "type": "badge",
+        "imageUrl": "/images/badge_creating_a_product_vision.png",
+        "title": "Creating a Product Vision",
+        "description": "Skill 1, Skill 2",
+        "issuedBy": "HTW",
+        "issuerUrl": "https://www.htw-berlin.de/"
+    },
+    {
+        "type": "badge",
+        "imageUrl": "/images/badge_customer_acceptance.png",
+        "title": "Customer Acceptance",
+        "description": "Skill 1, Skill 2",
+        "issuedBy": "HTW",
+        "issuerUrl": "https://www.htw-berlin.de/"
+    },
+    {
+        "type": "badge",
+        "imageUrl": "/images/badge_excel.png",
+        "title": "Microsoft Excel",
+        "description": "Skill 1, Skill 2",
+        "issuedBy": "HTW",
+        "issuerUrl": "https://www.htw-berlin.de/"
+    },
+    {
+        "type": "badge",
+        "imageUrl": "/images/badge_r.png",
+        "title": "Programming in R",
+        "description": "Skill 1, Skill 2",
+        "issuedBy": "HTW",
+        "issuerUrl": "https://www.htw-berlin.de/"
+    },
+    {
+        "type": "badge",
+        "imageUrl": "/images/badge_spss.png",
+        "title": "SPSS Statistics",
+        "description": "Skill 1, Skill 2",
+        "issuedBy": "HTW",
+        "issuerUrl": "https://www.htw-berlin.de/"
+    }
+]

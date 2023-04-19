@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import {Achievements, OverallStats} from './Stats';
 
 export const metadata: Metadata = {
   title: "About",
@@ -27,6 +28,10 @@ const About = () => (
         I'm a student at HTW Berlin pursuing my{" "}
         <b>Master's Degree in Data Science and Project Management</b>.
       </p>
+
+      <hr />
+
+      <OverallStats />
 
       <hr />
 
@@ -75,6 +80,8 @@ const About = () => (
         cuisine, picnics by the river and watching sci-fi movies with my
         husband.
       </p>
+
+      {/* <Achievements /> */}
     </div>
   </section>
 );
