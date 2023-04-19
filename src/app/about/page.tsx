@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import {Achievements, OverallStats} from './Stats';
+import { Achievements, OverallStats } from "./Stats";
 
 export const metadata: Metadata = {
   title: "About",
@@ -8,13 +8,11 @@ export const metadata: Metadata = {
 };
 
 type HighlightProps = {
-  children: React.ReactNode
+  children: React.ReactNode;
 };
 
 const Highlight = ({ children }: HighlightProps) => (
-  <span className="bg-slate-100 p-1 rounded-sm font-semibold">
-    {children}
-  </span>
+  <span className="bg-slate-100 p-1 rounded-sm font-semibold">{children}</span>
 );
 
 const About = () => (
@@ -23,7 +21,7 @@ const About = () => (
     <p className="my-5 text-neutral-800">
       👋 Hi, I'm <b>Rashmi</b>.
     </p>
-    <div className="prose prose-neutral text-neutral-800 space-y-4">
+    <div className="prose prose-neutral text-neutral-800 space-y-4 mb-8">
       <p>
         I'm a student at HTW Berlin pursuing my{" "}
         <b>Master's Degree in Data Science and Project Management</b>.
@@ -44,30 +42,35 @@ const About = () => (
       <p>I particularly enjoy building full stack data driven applications.</p>
 
       <p>
-        <Highlight>🔭 I’m working on:</Highlight> Building an image recognition app to indentify hand
-        written numbers. The last app I worked, detects Baklava in an image.
+        <Highlight>🔭 I’m working on:</Highlight> Building an image recognition
+        app to indentify hand written numbers. The last app I worked, detects
+        Baklava in an image.
       </p>
 
       <p>
-        <Highlight>🌱 I’m currently learning:</Highlight> Neural Networks using keras, Tensorflow and
-        Pytorch.
+        <Highlight>🌱 I’m currently learning:</Highlight> Neural Networks using
+        keras, Tensorflow and Pytorch.
       </p>
 
       <p>
-      <Highlight>🤔 What I want to learn next:</Highlight> AWS to deploy machine learning pipelines.
+        <Highlight>🤔 What I want to learn next:</Highlight> AWS to deploy
+        machine learning pipelines.
       </p>
 
       <p>
-      <Highlight>📫 How to reach me:</Highlight>{" "}
+        <Highlight>📫 How to reach me:</Highlight>{" "}
         <a href="mailto:hello@rashmidsouza.com">
           <b>
             <u>hello@rashmidsouza.com</u>
           </b>
         </a>
       </p>
-      <p><Highlight>⚡ Fun fact:</Highlight> I've battled Mealybugs to keep my houseplants alive.</p>
       <p>
-      <Highlight>🔧 Tools I Like To use:</Highlight>
+        <Highlight>⚡ Fun fact:</Highlight> I've battled Mealybugs to keep my
+        houseplants alive.
+      </p>
+      <p>
+        <Highlight>🔧 Tools I Like To use:</Highlight>
         <ul className="list-disc list-inside">
           <li>Scikit-learn</li>
           <li>Tableau</li>
@@ -76,13 +79,15 @@ const About = () => (
       </p>
 
       <p>
-      <Highlight>👻 What I do besides hammering keys:</Highlight> I enjoy cooking Indo-Chinese
-        cuisine, picnics by the river and watching sci-fi movies with my
-        husband.
+        <Highlight>👻 What I do besides hammering keys:</Highlight> I enjoy
+        cooking Indo-Chinese cuisine, picnics by the river and watching sci-fi
+        movies with my husband.
       </p>
-
-      {/* <Achievements /> */}
     </div>
+
+    <hr />
+
+    <Achievements />
   </section>
 );
 
