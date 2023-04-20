@@ -53,6 +53,8 @@ type AchievementProps = {
   blur?: boolean;
 };
 
+type PlaceholderValue = 'blur' | 'empty';
+
 const getImageProps = ({
   height,
   width,
@@ -65,7 +67,7 @@ const getImageProps = ({
   alt: description,
   src: imageUrl,
   className: "my-0 mx-auto",
-  placeholder: blur ? "blur" : undefined,
+  placeholder: blur ? 'blur' as PlaceholderValue : undefined,
   blurDataURL: blur ? `data:image/svg+xml;base64,${toBase64(shimmer(700, 475))}` : undefined,
 });
 
