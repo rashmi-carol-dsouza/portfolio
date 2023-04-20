@@ -5,6 +5,25 @@ import CountUp from "react-countup";
 import achievements from "./achievements.json";
 import stats from "./stats.json";
 
+const shimmer = (w: number, h: number) => `
+<svg width="${w}" height="${h}" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <linearGradient id="g">
+      <stop stop-color="#333" offset="20%" />
+      <stop stop-color="#222" offset="50%" />
+      <stop stop-color="#333" offset="70%" />
+    </linearGradient>
+  </defs>
+  <rect width="${w}" height="${h}" fill="#333" />
+  <rect id="r" width="${w}" height="${h}" fill="url(#g)" />
+  <animate xlink:href="#r" attributeName="x" from="-${w}" to="${w}" dur="1s" repeatCount="indefinite"  />
+</svg>`;
+
+const toBase64 = (str: string) =>
+  typeof window === "undefined"
+    ? Buffer.from(str).toString("base64")
+    : window.btoa(str);
+
 const badges: AchievementProps[] = achievements.filter(
   (achievement) => achievement.type === "badge"
 );
@@ -19,6 +38,7 @@ type SocialMentionProps = {
 };
 
 type AchievementProps = {
+  type: string;
   imageUrl: string;
   title: string;
   description: string;
@@ -30,50 +50,93 @@ type AchievementProps = {
   width: number;
   height: number;
   linkImage?: boolean;
+  blur?: boolean;
 };
 
-const Achievement = ({
-  imageUrl,
-  title,
-  description,
-  issuedBy,
-  issuerUrl,
-  width,
+const getImageProps = ({
   height,
-  linkImage,
-}: AchievementProps) => (
-  <div className="text-center">
-    {linkImage ? (
-      <a href={imageUrl} target="_blank">
-        <Image
-          alt={description}
-          src={imageUrl}
-          width={width}
-          height={height}
-          priority
-          className="my-0 mx-auto"
-        />
-      </a>
-    ) : (
-      <Image
-        alt={description}
-        src={imageUrl}
-        width={width}
-        height={height}
-        priority
-        className="my-0 mx-auto"
-      />
-    )}
-    <div className="mt-2">
-      <p className="text-xs">
-        <span className="block">{title}</span>
-        <a href={issuerUrl} target="_blank">
-          {issuedBy}
-        </a>
-      </p>
-    </div>
-  </div>
+  width,
+  description,
+  imageUrl,
+  blur
+}: AchievementProps) => ({
+  height,
+  width,
+  alt: description,
+  src: imageUrl,
+  className: "my-0 mx-auto",
+  placeholder: blur ? "blur" : undefined,
+  blurDataURL: blur ? `data:image/svg+xml;base64,${toBase64(shimmer(700, 475))}` : undefined,
+});
+
+const AchievementImage = (props: AchievementProps) => {
+  const imageProps = getImageProps(props);
+  return props.linkImage ? (
+    <a href={props.imageUrl} target="_blank">
+      <Image {...imageProps} />
+    </a>
+  ) : (
+    <Image {...imageProps} />
+  );
+}
+
+type BadgeProps = {
+  issuerUrl: string;
+  title: string;
+};
+
+const Badge = ({ issuerUrl, title }: BadgeProps) => (
+  <p className="text-xs">
+    <a href={issuerUrl} target="_blank">
+      {title}
+    </a>
+  </p>
 );
+
+type CertProps = {
+  issuerUrl: string;
+  issuedBy: string;
+  title: string;
+};
+
+const Certificate = ({ issuerUrl, issuedBy, title }: CertProps) => (
+  <p className="text-xs">
+    <span className="block">{title}</span>
+    <a href={issuerUrl} target="_blank">
+      {issuedBy}
+    </a>
+  </p>
+);
+
+const Achievement = (props: AchievementProps) => {
+  const {
+    type,
+    imageUrl,
+    title,
+    description,
+    issuedBy,
+    issuerUrl,
+    width,
+    height,
+    linkImage,
+  } = props;
+  return (
+    <div className="text-center">
+      <AchievementImage {...props} />
+      <div className="mt-2">
+        {type === "badge" ? (
+          <Badge title={title} issuerUrl={issuerUrl} />
+        ) : (
+          <Certificate
+            issuerUrl={issuerUrl}
+            issuedBy={issuedBy}
+            title={title}
+          />
+        )}
+      </div>
+    </div>
+  );
+};
 
 type AchievementsList = {
   achievements: AchievementProps[];
@@ -98,8 +161,8 @@ export const Achievements = () => {
     <div className="my-8 text-neutral-800">
       <h2>Achievements</h2>
       <div className="space-y-10">
-        <AchievementsList achievements={badges} title="Badges" />
         <AchievementsList achievements={hackathons} title="Hackathons" />
+        <AchievementsList achievements={badges} title="Badges" />
       </div>
     </div>
   );

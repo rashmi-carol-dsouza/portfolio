@@ -35,7 +35,7 @@ const About = () => (
 
       <p>
         Previously I worked as a Compliance Officer and studied law and
-        finance/commerce. Now I'm switching my carrer and to become a{" "}
+        finance/commerce. Now I'm switching my career and to become a{" "}
         <b>Data Scientist</b>.
       </p>
 

@@ -20,6 +20,7 @@
         "width": 200,
         "height": 268,
         "linkImage": true,
+        "blur": true,
         "socialMentions": [
             {
                 "src": "YouTube",
@@ -30,14 +31,15 @@
     },
     {
         "type": "hackathon",
-        "imageUrl": "/images/cert_cheex.webp",
+        "imageUrl": "/images/cert_cheex.png",
         "title": "Hackathon 2023 (Winner)",
-        "description": "Measure of Music is a virtual three-day weekend program to show the impact & importance of data across the music industry and to give music industry hopefuls and industry career changers a crash course (and a finished project!) in music and data with some of the most influential people and companies driving the democratization of music data around the world.",
-        "issuedBy": "Measure of Music",
+        "description": "CHEEX is an online platform for progressive and inclusive sexual education and entertainment.",
+        "issuedBy": "Cheex",
         "issuerUrl": "https://conference.measureofmusic.com/",
         "lessonsLearned": "TBD",
         "width": 200,
-        "height": 200,
+        "height": 268,
+        "blur": true,
         "socialMentions": [
             {
                 "src": "YouTube",
@@ -57,6 +59,7 @@
         "width": 200,
         "height": 268,
         "linkImage": true,
+        "blur": true,
         "socialMentions": [
             {
                 "src": "YouTube",
