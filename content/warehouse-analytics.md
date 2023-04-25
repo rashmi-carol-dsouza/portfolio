@@ -1,8 +1,8 @@
 ---
-title: Custom Web App for Saint-Gobain
+title: Saint-Gobain Warehouse Analytics
 type: Project
-publishedAt: 2023-01-19
-summary: End to end automated pipeline to visualize customer feedback for Thameslink UK
+publishedAt: 2022-07-12
+summary: Custom Web App for Saint-Gobain to streamline warehouse data collection
 code: https://github.com/rashmi-carol-dsouza/saint-gobain-barcode-service
 outcome: https://docs.google.com/presentation/d/1_55e0ce70-irkA8ldlqoycfh-LN3LcdNJN3PyhaRis0/edit#slide=id.g135e630a512_0_50
 tags: web development, RESTful API, Flask, PostgreSQL, Heroku, Vercel
