@@ -1,7 +1,7 @@
 [
     {
         "label": "Hackathons",
-        "number": 4,
+        "number": 6,
         "duration": 2
     },
     {
@@ -11,12 +11,12 @@
     },
     {
         "label": "Commits",
-        "number": 597,
+        "number": 612,
         "duration": 2.75
     },
     {
         "label": "Talks",
-        "number": 2,
+        "number": 3,
         "duration": 2
     },
     {

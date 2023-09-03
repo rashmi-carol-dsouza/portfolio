@@ -31,6 +31,7 @@
     "rehype-pretty-code": "^0.9.4",
     "rehype-slug": "^5.1.0",
     "remark-gfm": "^3.0.1",
+    "shiki": "^0.14.4",
     "typescript": "5.0.3",
     "yarn": "^1.22.19"
   },
@@ -39,5 +40,9 @@
     "eslint-plugin-check-file": "^2.2.0",
     "postcss": "^8.4.21",
     "tailwindcss": "^3.3.1"
-  }
+  },
+  "description": "This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).",
+  "main": "next.config.js",
+  "author": "",
+  "license": "ISC"
 }

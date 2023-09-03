@@ -1,4 +1,10 @@
-[
+[  {
+    "publishedAt": "2023-27-08",
+    "title": "Workshop at Techlabs Berlin",
+    "summary": "An hands-on workshop for building, testing and deploying APIs to serve machine learning models with Flask, Postman and PythonAnywhere ",
+    "href": "https://youtu.be/vobQ_UOYeE4?si=YS8WIPp8GG74Ek8f",
+    "embeddedVideoUrl": "https://www.youtube.com/embed/vobQ_UOYeE4?si=A02YQ3BNhau_CZ0f"
+  },
   {
     "publishedAt": "2022-02-10",
     "title": "Measure of Music 2023 Hackathon",
