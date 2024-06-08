@@ -22,20 +22,20 @@ export default async function HomePage() {
         />
         <div className="mt-8 md:mt-0 ml-0 md:ml-6 space-y-2 text-neutral-500">
           <Link
-            href="/projects/pose-genie"
+            href="https://hypowise.de/"
             className="flex items-center gap-2"
           >
             <i className="fa-solid fa-rocket h-4 w-4"></i>
-            Latest Project: Pose Detection
+            Latest Project: hypowise.de
           </Link>
           <a
             rel="noopener noreferrer"
             target="_blank"
-            href="https://www.youtube.com/live/BfS71B6Lxfs?feature=share"
+            href="https://youtu.be/0gpuX0jPP1s"
             className="flex items-center gap-2"
           >
             <i className="fa-brands fa-youtube h-4 w-4"></i>
-            Recent Talk: Winning Measure of Music Hackathon
+            Recent Talk: Flask Workshop at Techlabs Berlin
           </a>
           <a
             rel="noopener noreferrer"
@@ -58,11 +58,11 @@ export default async function HomePage() {
           <a
             rel="noopener noreferrer"
             target="_blank"
-            href="https://twitter.com/rashmi_carol"
+            href="https://www.linkedin.com/in/rashmi-carol-dsouza/"
             className="flex items-center gap-2"
           >
-            <i className="fa-brands fa-twitter h-4 w-4"></i>
-            Tweets
+            <i className="fa-brands fa-linkedin-in h-4 w-4"></i>
+            LinkedIn
           </a>
         </div>
       </div>

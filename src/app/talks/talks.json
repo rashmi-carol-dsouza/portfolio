@@ -1,6 +1,20 @@
-[  {
+[ {
+    "publishedAt": "2024-04-04",
+    "title": "Second Flask Workshop at Techlabs Berlin",
+    "summary": "An hands-on workshop for building, testing and deploying APIs to serve machine learning models with Flask, Postman and Render ",
+    "href": "https://youtu.be/0gpuX0jPP1s?si=m6I464ZO-JYaAcOW",
+    "embeddedVideoUrl": "https://www.youtube.com/embed/0gpuX0jPP1s?si=m6I464ZO-JYaAcOW"
+  }, 
+  {
+    "publishedAt": "2023-27-11",
+    "title": "Amazon SageMaker Demo",
+    "summary": "An hands-on workshop and walkthrough of some AWS SageMaker features and a mini-project",
+    "href": "https://youtu.be/cwEViPYpUgc?si=sljUF9vCpJ8M0MmH",
+    "embeddedVideoUrl": "https://www.youtube.com/embed/cwEViPYpUgc?si=sljUF9vCpJ8M0MmH"
+  }, 
+  {
     "publishedAt": "2023-27-08",
-    "title": "Workshop at Techlabs Berlin",
+    "title": "First Flask Workshop at Techlabs Berlin",
     "summary": "An hands-on workshop for building, testing and deploying APIs to serve machine learning models with Flask, Postman and PythonAnywhere ",
     "href": "https://youtu.be/vobQ_UOYeE4?si=YS8WIPp8GG74Ek8f",
     "embeddedVideoUrl": "https://www.youtube.com/embed/vobQ_UOYeE4?si=A02YQ3BNhau_CZ0f"
