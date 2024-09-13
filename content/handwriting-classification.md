@@ -7,6 +7,7 @@ code: https://github.com/rashmi-carol-dsouza/handwritten-digit-recognition
 tags: machine learning, handwritten digit recognition, streamlit, deep learning, computer vision, deployment
 ---
 
+<iframe class="video" src="https://www.youtube.com/embed/Ckh20TGn61E?si=iO4MvEGOAiNggwdZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ### Try It Out
 
@@ -30,6 +31,7 @@ Key Features of the App
 User-Friendly Interface: The app features an easy-to-use interface where users can drag and drop their images or use a file uploader to select the digit image.
 Real-Time Predictions: Once an image is uploaded, the app immediately processes it and displays the predicted digit along with the confidence score.
 Interactive Feedback: Users receive instant visual feedback, with the app displaying the uploaded image and the prediction side by side.
+
 Outcome and Learnings
 Deploying the model using Streamlit was a seamless experience. The app not only performs well but also provides an excellent platform for demonstrating the practical applications of machine learning in everyday tasks. Through this project, I learned a lot about model deployment and creating interactive user interfaces for machine learning models.
 

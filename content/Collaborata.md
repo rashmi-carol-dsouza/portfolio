@@ -6,7 +6,7 @@ summary: A&R Analytics Tool for facilitating aritist collaboration
 pitch: https://www.canva.com/design/DAFblWXrycw/4NcGANsW_duGmMf2uqh7Zw/view?analyticsCorrelationId=cd900f09-4176-4147-9ca8-d34f0ba6bf5a
 code: https://github.com/rashmi-carol-dsouza/measure-of-music-2023-team-9
 liveDemo: https://collaborata.surge.sh/
-tags: music, hackathon, Azure App Service
+tags: music, hackathon winner, Azure App Service
 ---
 <iframe class="video" src="https://www.youtube.com/embed/GErgvCgFiLg" title="Collaborata" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 

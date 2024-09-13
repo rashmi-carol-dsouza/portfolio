@@ -11,11 +11,11 @@
   },
   {
     "blur": true,
-    "description": "Measure of Music is a virtual three-day weekend program to show the impact & importance of data across the music industry and to give music industry hopefuls and industry career changers a crash course (and a finished project!) in music and data with some of the most influential people and companies driving the democratization of music data around the world.",
+    "description": "Make impact work",
     "height": 268,
-    "imageUrl": "/images/cert_measure-of-music_2022.png",
-    "issuedBy": "Measure of Music",
-    "issuerUrl": "https://conference.measureofmusic.com/",
+    "imageUrl": "/images/impacthub.png",
+    "issuedBy": "Impact Hub",
+    "issuerUrl": "https://www.linkedin.com/feed/update/urn:li:activity:6985279215667433472/?utm_source=share&utm_medium=member_desktop",
     "lessonsLearned": "TBD",
     "linkImage": true,
     "socialMentions": [
@@ -25,26 +25,7 @@
         "url": "https://www.youtube.com/watch?v=fB9Ni8-8K0M&list=PL4wrlPUmq82EfHUXnWKzcMdNIrNSJlLCI&index=1"
       }
     ],
-    "title": "Hackathon 2022 (Participant)",
-    "type": "hackathon",
-    "width": 200
-  },
-  {
-    "blur": true,
-    "description": "CHEEX is an online platform for progressive and inclusive sexual education and entertainment.",
-    "height": 268,
-    "imageUrl": "/images/cert_cheex.png",
-    "issuedBy": "Cheex",
-    "issuerUrl": "https://conference.measureofmusic.com/",
-    "lessonsLearned": "TBD",
-    "socialMentions": [
-      {
-        "src": "YouTube",
-        "text": "Winning Pitch",
-        "url": "https://www.youtube.com/watch?v=fB9Ni8-8K0M&list=PL4wrlPUmq82EfHUXnWKzcMdNIrNSJlLCI&index=1"
-      }
-    ],
-    "title": "Hackathon 2023 (Winner)",
+    "title": "Hackathon 2023 Winner",
     "type": "hackathon",
     "width": 200
   },
@@ -64,7 +45,26 @@
         "url": "https://www.youtube.com/watch?v=fB9Ni8-8K0M&list=PL4wrlPUmq82EfHUXnWKzcMdNIrNSJlLCI&index=1"
       }
     ],
-    "title": "Hackathon 2023 (Winner)",
+    "title": "Hackathon 2023 Winner",
+    "type": "hackathon",
+    "width": 200
+  },
+  {
+    "blur": true,
+    "description": "CHEEX is an online platform for progressive and inclusive sexual education and entertainment.",
+    "height": 268,
+    "imageUrl": "/images/cert_cheex.png",
+    "issuedBy": "Cheex",
+    "issuerUrl": "https://conference.measureofmusic.com/",
+    "lessonsLearned": "TBD",
+    "socialMentions": [
+      {
+        "src": "YouTube",
+        "text": "Winning Pitch",
+        "url": "https://www.youtube.com/watch?v=fB9Ni8-8K0M&list=PL4wrlPUmq82EfHUXnWKzcMdNIrNSJlLCI&index=1"
+      }
+    ],
+    "title": "Hackathon 2023 Winner",
     "type": "hackathon",
     "width": 200
   },
